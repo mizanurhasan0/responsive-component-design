@@ -1,0 +1,33 @@
+div {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  background-color: rgb(26, 26, 61);
+}
+nav {
+  position: relative;
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+}
+.profile {
+  color: white;
+  height: 100%;
+  text-align: center;
+}
+.profile p {
+  position: relative;
+  top: 22%;
+  right: 10px;
+}
+.profile img {
+  height: 60px;
+  position: relative;
+  top: 10px;
+}

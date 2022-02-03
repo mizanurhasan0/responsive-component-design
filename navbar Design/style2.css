@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #24252a;
+  align-items: center;
+  padding: 30px;
+}
+li,
+a,
+button {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.logo {
+  height: 30px;
+  cursor: pointer;
+}
+.nav_link li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-transform: uppercase;
+}
